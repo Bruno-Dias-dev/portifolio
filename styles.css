@@ -4,4 +4,14 @@ body {
 
 .main-content {
     background-color:  #e9ecef;
+    margin-top: 70px;
 }
+
+.bi-check-circle {
+    color: red;
+}
+
+.card-body {
+    background-color: #e9ecef;
+}
+
