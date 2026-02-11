@@ -15,3 +15,14 @@ body {
     background-color: #e9ecef;
 }
 
+.project-card {
+  width: 360px;
+  background: #0b1220;
+  border: 1px solid #1e293b;
+  border-radius: 10px;
+  color: black;
+}
+
+.tech-badge {
+    background-color: #0b1220;
+}
