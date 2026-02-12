@@ -3,7 +3,7 @@ body {
 }
 
 .main-content {
-    background-color:  #e9ecef;
+    background-color: #e9ecef;
     margin-top: 70px;
 }
 
@@ -11,13 +11,9 @@ body {
     color: red;
 }
 
-.card-body {
-    background-color: #e9ecef;
-}
-
 .project-card {
-  width: 360px;
-  background: #0b1220;
+  width: 350px;
+  background: #e9ecef;
   border: 1px solid #1e293b;
   border-radius: 10px;
   color: black;
@@ -25,4 +21,12 @@ body {
 
 .tech-badge {
     background-color: #0b1220;
+}
+
+.card {
+    margin: 10px 10px;
+}
+
+.bi-box-arrow-up-right {
+    color: black;
 }
