@@ -59,6 +59,15 @@ body {
     height: 55px;
 }
 
+.btzin .seta1 {
+    text-decoration: none;
+    color: black;
+}
+
+.btzin .seta2 {
+    color: black;
+}
+
 .btzin {
     text-decoration: none;
     color: black;
@@ -97,4 +106,19 @@ body {
 .description {
     font-size: 14.5px;
 }
+
+.ads {
+    font-size: 18px;
+}
+
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* espaço entre seta e texto */
+}
+
+
 
