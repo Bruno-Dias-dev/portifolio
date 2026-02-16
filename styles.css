@@ -33,8 +33,6 @@ body {
 .navbar li a {
     color: #e9ecef;
 }
-
-
 .navbar li a:hover {
     color: #ffffff;
 }
@@ -44,7 +42,8 @@ body {
 .main-content {
     background-color: #e9ecef;
     margin-top: 70px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    min-height: calc(200vh - 70px);
 }
 
 .baixar a i {
@@ -115,7 +114,6 @@ body {
 .ads {
     font-size: 18px;
 }
-
 
 .contact a {
     text-decoration: none;
