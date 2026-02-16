@@ -22,6 +22,10 @@ body {
     font-size: 15px;
 }
 
+.logo-text:hover {
+    color: #ffffff;
+}
+
 .text-links {
     font-size: 14px;
     
@@ -40,6 +44,7 @@ body {
 .main-content {
     background-color: #e9ecef;
     margin-top: 70px;
+    padding-bottom: 2rem;
 }
 
 .baixar a i {
@@ -116,9 +121,15 @@ body {
     text-decoration: none;
     color: black;
     display: flex;
-    align-items: center;
-    gap: 5px; /* espaço entre seta e texto */
+    align-items: center; /* Isso alinha o ícone verticalmente com o texto */
+    gap: 8px;            /* Isso cria um espaço fixo entre o ícone e o texto */
+    margin-bottom: 10px; /* Um espacinho entre um link e outro */
 }
 
+/* Opcional: ajustar o tamanho do ícone se ele parecer grande demais */
+.contact a i {
+    font-size: 14px;
+    display: flex; 
+}
 
 
