@@ -6,12 +6,48 @@ body {
     font-size: 40px;
 }
 
+.navbar {
+    background-color: black;
+}
+
+.container-fluid {
+    margin-left: 10px;
+}
+
+.logo-text {
+    color: #e9ecef;
+    font-family: "Space Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.text-links {
+    font-size: 14px;
+    
+}
+.navbar li a {
+    color: #e9ecef;
+}
+
+
+.navbar li a:hover {
+    color: #ffffff;
+}
 .subitulo {
     font-size: 20px;
 }
 .main-content {
     background-color: #e9ecef;
     margin-top: 70px;
+}
+
+.baixar a i {
+    color: #e9ecef;
+}
+
+.baixar a .baixar2 {
+    color: #e9ecef;
 }
 
 .lista {
@@ -56,5 +92,9 @@ body {
 
 .bi-box-arrow-up-right {
     color: black;
+}
+
+.description {
+    font-size: 14.5px;
 }
 
