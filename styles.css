@@ -129,5 +129,49 @@ body {
     font-size: 14px;
     display: flex; 
 }
+/* mt-2 */
+.ski {
+    margin-top: 0.5rem;
+}
 
+.skills {
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
 
+/* mx-5 mt-2 */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .card {
+        margin: 10px 30px;
+    }
+
+    .devops {
+        margin-left: 0rem;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .ski {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .skills {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
