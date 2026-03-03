@@ -41,7 +41,7 @@ body {
 }
 .main-content {
     background-color: #e9ecef;
-    margin-top: 70px;
+    margin-top: 130px;
     padding-bottom: 1rem;
     min-height: calc(200vh - 70px);
 }
