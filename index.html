@@ -53,14 +53,14 @@
         <section class="pb-3 pt-2">
             <h2 class="mb-1 titulo">Bruno Dias</h2>
             <h6 class="text-body-secondary mb-3">
-                Analista de Sistemas
+                Desenvolvedor Junior
             </h6>
             <p class="mb-0">
-                Atuação como Analista de Sistemas, com foco em automações (n8n) e
-                desenvolvimento backend em Python (FastAPI), incluindo implementação
-                e administração de plataforma omnichannel, implementação de telefonia,
-                suporte N1 a N3, integrações, orçamentos técnicos e implantação de
-                sistemas de terceiros. Experiência com JavaScript e familiaridade com
+                Atuação como desenvolvedor Junior, com foco em automações (n8n) e
+                desenvolvimento backend em Python (Flask API e Request), incluindo implementação
+                e administração de plataformas omnichannel, implementação e configuração de sistemas de telefonia,
+                suporte N1 a N3, orçamentos técnicos e implantação de
+                sistemas de terceiros. Também tenho experiência com JavaScript e familiaridade com
                 Bootstrap, além de atuação pontual no apoio comercial e pré-vendas
                 técnicas.
             </p>
@@ -97,7 +97,6 @@
 
             <h2 class="subitulo">Experiência Profissional</h2>
             <h6 class="section title mb-1 fw-semibold">Inovacomm</h6>
-            <h6 class="text-body-secondary small mb-0">Dezembro 2024 - Agosto de 2025</h6>
             <ul class="list-unstyled mb-4">
                 <li class="mt-2 my-2 lista">• Desenvolvimento de soluções de IA integradas ao WhatsApp (Baileys e WhatsApp Oficial) e plataformas omnichannel (SZ Chat e Reply Agent).</li>
                 <li class="my-2 lista">• Automação de atendimento e agendamento inteligente.</li>
@@ -108,10 +107,12 @@
             </ul>
 
             <h6 class="mb-1 fw-semibold">Grupo Contém</h6>
-            <h6 class="text-body-secondary small mb-0">Novembro 2025 - Presente</h6>
             <ul class="list-unstyled mb-3">
                 <li class="mt-2 my-2 lista">• Implementação, suporte e administração de plataformas omnichannel.</li>
+                <li class="mt-2 my-2 lista">• Desenvolvimento e implementação de CRM</li>
                 <li class="my-2 lista">• Administração de servidores Linux.</li>
+                <li class="my-2 lista">• Desenvolvimento de sistemas de automação com IA.</li>
+                <li class="my-2 lista">• Desenvolvimento e ajustes dos painéis do BI.</li>
                 <li class="my-2 lista">• Desenvolvimento e implementação de sistemas de Service Desk.</li>
             </ul>
 
@@ -120,9 +121,56 @@
         <section class="mt-5">
             
             <h2 class="subitulo">Projetos em destaque</h2>
+
+            <div class="project-filters mb-4">
+                <button  class="filter-btn active" data-filter="Todos">
+                    Todos
+                </button>
+                
+                <button class="filter-btn" data-filter="javascript">
+                    JavaScript
+                </button>
+
+                <button class="filter-btn" data-filter="sql">
+                    SQL
+                </button>
+                
+                <button class="filter-btn" data-filter="n8n">
+                    n8n
+                </button>
+
+                <button class="filter-btn" data-filter="bootstrap">
+                    Bootstrap
+                </button>
+
+                <button class="filter-btn" data-filter="html5">
+                    HTML 5
+                </button>
+
+                <button class="filter-btn" data-filter="azure">
+                    Azure
+                </button>
+
+                <button class="filter-btn" data-filter="gemini">
+                    Gemini
+                </button>
+
+                <button class="filter-btn" data-filter="css3">
+                    CSS3
+                </button>
+                
+                <button class="filter-btn" data-filter="flexbox">
+                    Flexbox
+                </button>
+
+                <button class="filter-btn" data-filter="typescript">
+                    TypeScript
+                </button>
+            </div>
+
             <div class="d-flex flex-wrap">
                 <!-- Card 1 -->
-                <div class="card project-card">
+                <div class="card project-card" data-technologies="n8n python">
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-between align-items-start mb-1">
                             <h6 class="mb-0 fw-semibold">Zeca</h6>
@@ -134,7 +182,7 @@
                         <!-- <a href="#" class="demo-link">View Live Demo</a> -->
 
                         <p class="description mt-2 mb-3">
-                            IA para atendimento automatizado via WhatsApp, com envio de cardápio no início da conversa, cálculo automático de pedidos e geração de pagamento via PIX.
+                            IA para atendimento automatizado via WhatsApp, com envio de cardápio, cálculo automático de pedidos e geração de pagamento via PIX.
                         </p>
 
                         <div class="d-flex flex-wrap gap-2 baiano">
@@ -142,12 +190,37 @@
                             <span class="badge tech-badge">Python</span>
                         </div>
                     </div>
-                </div>
 
-                <div class="card project-card">
+                </div>
+                
+                <div class="card project-card" data-technologies="javascript python sql">
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-between align-items-start mb-1">
-                            <h6 class="mb-0 fw-semibold">Agendamento Inteligente</h6>
+                            <h6 class="mb-0 fw-semibold">Monitor.IA</h6>
+                            <a href="https://github.com/Bruno-Dias-dev/ia_para_restaurante/tree/main" class="icon-link">
+                                <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                        <!-- <a href="#" class="demo-link">View Live Demo</a> -->
+
+                        <p class="description mt-2 mb-3">
+                        Sistema que centraliza métricas dos sistemas de atendimento em dashboards, utiliza IA para monitorar agentes e oferece um chat com IA para avaliação dos atendimentos telefônicos.
+
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-2 baiano">
+                            <span class="badge tech-badge">JavaScript</span>
+                            <span class="badge tech-badge">Python</span>
+                            <span class="badge tech-badge">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card project-card" data-technologies="javascript n8n gemini azure">
+                    <div class="card-body p-3">
+                        <div class="d-flex justify-content-between align-items-start mb-1">
+                            <h6 class="mb-0 fw-semibold">Sistema multiagente</h6>
                             <a href="#" class="icon-link">
                                 <i class="bi bi-box-arrow-up-right"></i>
                             </a>
@@ -156,42 +229,21 @@
                         <!-- <a href="#" class="demo-link">View Live Demo</a> -->
 
                         <p class="description mt-2 mb-3">
-                            IA para agendamento automático de reuniões, com criação, remarcação e confirmação diretamente no Google Agenda, além de notificações e organização de horários.
+                            Sistema multiagentes com IA para atendimento e consultoria jurídica, integrado ao omnichannel e às plataformas Teams e Outlook para agendamento de reuniões.
                         </p>
 
                         <div class="d-flex gap-2 baiano">
-                        <span class="badge tech-badge">JavaScript</span>
+                            <span class="badge tech-badge">JavaScript</span>
+                            <span class="badge tech-badge">n8n</span>
+                            <span class="badge tech-badge">Gemini</span>
+                            <span class="badge tech-badge">Azure</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="card project-card">
-                    <div class="card-body p-3">
-                        <div class="d-flex justify-content-between align-items-start mb-1">
-                            <h6 class="mb-0 fw-semibold">Sistema de ponto</h6>
-                            <a href="#" class="icon-link">
-                                <i class="bi bi-box-arrow-up-right"></i>
-                            </a>
-                        </div>
+        
 
-                            <!-- <a href="#" class="demo-link">View Live Demo</a> -->
-
-                            <p class="description mt-2 mb-3">
-                                Desenvolvimento de sistema de registro de ponto digital, permitindo marcação de entrada, saída e intervalos, com armazenamento em banco de dados.
-                            </p>
-
-                            <div class="d-flex flex-wrap gap-2 baiano">
-                                <span class="badge tech-badge">JavaScript</span>
-                                <span class="badge tech-badge">Boostrap</span>
-                                <span class="badge tech-badge">PostgreSQL</span>
-                                <span class="badge tech-badge">Python</span>
-                                <span class="badge tech-badge">HTML5</span>
-                                <span class="badge tech-badge">CSS3</span>
-                            </div>
-                    </div>
-                </div>
-
-                <div class="card project-card">
+                <div class="card project-card" data-technologies="html5 css3 flexbox">
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-between align-items-start mb-1">
                             <h6 class="mb-0 fw-semibold">Clone — Página do Instagram</h6>
@@ -212,7 +264,7 @@
                     </div>
                 </div>
 
-                <div class="card project-card">
+                <div class="card project-card" data-technologies="php bootstrap javaScript sql">
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-between align-items-start mb-1">
                             <h6 class="mb-0 fw-semibold">Portal de Atendimento Contém</h6>
@@ -222,19 +274,20 @@
                         </div>
 
                         <p class="description mt-2 mb-3">
-                            Desenvolvimento do Portal de Atendimento Grupo Contém para abertura e acompanhamento de chamados.
+                           Implementação e customização do osTicket, solução open source de Service Desk integrada aos sistemas e automações do Grupo Contém.
                         </p>
 
                         <div class="d-flex flex-wrap gap-2 baiano">
                             <span class="badge tech-badge">PHP</span>
                             <span class="badge tech-badge">Bootstrap</span>
-                            <span class="badge tech-badge">MySQL</span>
+                            <span class="badge tech-badge">JavaScript</span>
+                            <span class="badge tech-badge">SQL</span>
                         </div>
                     </div>
                 </div>
 
 
-                 <div class="card project-card">
+                <div class="card project-card" data-technologies="html5 css3 bootstrap javascript css3 n8n sql"data-technologies="html5 css3 bootstrap javascript css3 n8n sql">
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-between align-items-start mb-1">
                             <h6 class="mb-0 fw-semibold">Disparador de mensagens</h6>
@@ -253,6 +306,31 @@
                             <span class="badge tech-badge">CSS3</span>
                             <span class="badge tech-badge">Javascript</span>
                             <span class="badge tech-badge">n8n</span>
+                            <span class="badge tech-badge">SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card project-card" data-technologies="php css3 javascript css3 sql">
+                    <div class="card-body p-3">
+                        <div class="d-flex justify-content-between align-items-start mb-1">
+                            <h6 class="mb-0 fw-semibold">Leads</h6>
+                            <a href="https://github.com/Bruno-Dias-dev/disparador_de_mensagens" class="icon-link">
+                                <i class="bi bi-box-arrow-up-right"></i>
+                            </a>
+                        </div>
+
+                        <p class="description mt-2 mb-3">
+                            Implementação e customização de CRM open source (EspoCRM), adaptado às necessidades do negócio e integrado às demais plataformas.
+                        </p>
+
+                        <div class="d-flex flex-wrap gap-2 baiano">
+                            <span class="badge tech-badge">PHP</span>
+                            <span class="badge tech-badge">JavaScript</span>
+                            <span class="badge tech-badge">CSS3</span>
+                            <span class="badge tech-badge">TypeScript</span>
+                            <span class="badge tech-badge">SQL</span>
                         </div>
                     </div>
                 </div>
@@ -295,11 +373,18 @@
         <section class="mt-5 mb-4">
             <h2 class="subitulo mb-3">Formação</h2>
             <h6 class="section title mb-1 fw-semibold ads">Análise e desenvolvimento de sistemas</h6>
+            <h6 class="text-body-secondary small mb-0">Faculdade</h6>
             <h6 class="section title mb-1 fw-semibold">Faculdade Anhanguera</h6>
             <h6 class="text-body-secondary small">Fev de 2023 - jul de 2025</h6>
-            
+       </section>
 
-        </section>
+       
+        <section class="mt-5 mb-4">
+            <h6 class="section title mb-1 fw-semibold ads">Engenharia de Software com Inteligência Artificial</h6>
+             <h6 class="text-body-secondary small mb-0">MBA</h6>
+            <h6 class="section title mb-1 fw-semibold">Faculdade Anhanguera</h6>
+            <h6 class="text-body-secondary small">Em andamento</h6>
+       </section>
 
         <section class="mt-5 contact2">
             <h2 class="subitulo">Contatos</h2>
@@ -333,6 +418,9 @@
             </section>
         </div>          
     </div>
+    <script src="../script.js">
+
+    </script>
     </body>
 
 <!-- deixa a nave mas escura e coloca um preto na fonte, paz-->
