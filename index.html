@@ -28,21 +28,21 @@
                 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-links" href="">Sobre</a>
+                        <a class="nav-link text-links" href="#sobre">Sobre</a>
                     </li>
-                    <li><a class="nav-link text-links" href="">Experiência</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-links" href="">Projetos</a>
+                    <li><a class="nav-link text-links" href="#experiencia">Experiência</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-links" href="">Habilidades</a>
+                        <a class="nav-link text-links" href="#projetos">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-links" href="">Formação</a>
+                        <a class="nav-link text-links" href="#habilidades">Habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-links" href="">Contato</a>
+                        <a class="nav-link text-links" href="#formacao">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-links" href="#contatos">Contato</a>
                     </li>            
             </div>        
         </nav>
@@ -50,7 +50,7 @@
     <div class="container rounded-3 border border-dark border-bottom-0 main-content">
 
         <!-- APRESENTAÇÃO -->
-        <section class="pb-3 pt-2">
+        <section class="pb-3 pt-2" id="sobre">
             <h2 class="mb-1 titulo">Bruno Dias</h2>
             <h6 class="text-body-secondary mb-3">
                 Desenvolvedor Junior
@@ -93,7 +93,7 @@
         </section>
 
         <!-- OUTRAS SEÇÕES -->
-        <section class="mt-3">
+        <section class="mt-3" id="experiencia">
 
             <h2 class="subitulo">Experiência Profissional</h2>
             <h6 class="section title mb-1 fw-semibold">Inovacomm</h6>
@@ -118,11 +118,11 @@
 
         </section>
 
-        <section class="mt-5">
+        <section class="mt-5" id="projetos">
             
             <h2 class="subitulo">Projetos em destaque</h2>
 
-            <div class="project-filters mb-4">
+            <div class="project-filters">
                 <button  class="filter-btn active" data-filter="Todos">
                     Todos
                 </button>
@@ -312,7 +312,7 @@
                 </div>
 
 
-                <div class="card project-card" data-technologies="php css3 javascript css3 sql">
+                <div class="card project-card" data-technologies="php css3 javascript css3 sql typescript">
                     <div class="card-body p-3">
                         <div class="d-flex justify-content-between align-items-start mb-1">
                             <h6 class="mb-0 fw-semibold">Leads</h6>
@@ -337,7 +337,7 @@
             </div>
         </section>
 
-        <section class="mt-5">
+        <section class="mt-5" id="habilidades">
             <h2 class="subitulo">Habilidades técnicas</h2>
 
             <div class="d-flex flex-wrap card2">
@@ -371,7 +371,7 @@
         <hr>
 
         <section class="mt-5 mb-4">
-            <h2 class="subitulo mb-3">Formação</h2>
+            <h2 class="subitulo mb-3" id="formacao">Formação</h2>
             <h6 class="section title mb-1 fw-semibold ads">Análise e desenvolvimento de sistemas</h6>
             <h6 class="text-body-secondary small mb-0">Faculdade</h6>
             <h6 class="section title mb-1 fw-semibold">Faculdade Anhanguera</h6>
@@ -386,7 +386,7 @@
             <h6 class="text-body-secondary small">Em andamento</h6>
        </section>
 
-        <section class="mt-5 contact2">
+        <section class="mt-5 contact2" id="contatos">
             <h2 class="subitulo">Contatos</h2>
             <p>Sinta-se à vontade para entrar em contato por qualquer um dos seguintes canais</p>
 
@@ -418,7 +418,7 @@
             </section>
         </div>          
     </div>
-    <script src="../script.js">
+    <script src="script.js">
 
     </script>
     </body>

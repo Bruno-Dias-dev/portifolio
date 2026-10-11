@@ -180,6 +180,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    margin: 10px 30px;
 }
 
 .filter-btn {
